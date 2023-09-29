@@ -1,0 +1,12 @@
+{
+  "name": "stale-prs",
+  "version": "1.0.0",
+  "description": "Example of creating a function that runs as a cron job using the serverless `schedule` event",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/graphql": "^7.0.2",
+    "axios": "^1.5.1",
+    "moment": "^2.29.4"
+  }
+}

@@ -1,0 +1,15 @@
+org: jamesdrape
+app: stale-prs-summary
+service: stale-prs
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+
+functions:
+  cronHandler:
+    handler: index.run
+    events:
+      # Invoke Lambda function every morning at 9am UTC Mon-Fri
+      - schedule: cron(00 9 ? * MON-FRI *)
