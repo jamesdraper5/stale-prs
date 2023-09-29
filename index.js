@@ -52,7 +52,7 @@ module.exports.run = async (event) => {
     await Promise.all(
       channels.map(async (channel) => {
         let stalePRs = await getStalePRs(channel.repos, channel.opts);
-        //console.log("stalePRs:", stalePRs);
+        //console.log("stalePRs", stalePRs);
         if (stalePRs.length) {
           const messageText = await getMessageText(stalePRs);
           console.log("messageText", messageText);
