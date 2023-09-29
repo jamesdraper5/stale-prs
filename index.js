@@ -1,4 +1,3 @@
-
 const moment = require("moment");
 const getStalePRs = require("./lib/github");
 const sendMessage = require("./lib/sendMessage");
@@ -48,7 +47,7 @@ function getDaysAgo(date) {
   return `${daysOld} days ago`;
 }
 
-module.exports.sendUpdate = async (event) => {
+module.exports.run = async (event) => {
   try {
     await Promise.all(
       channels.map(async (channel) => {
