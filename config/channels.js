@@ -23,6 +23,10 @@ const bravoTeamMembers = [
     githubHandle: "barry-mckay",
     chatHandle: "@barry",
   },
+  {
+    githubHandle: "Vercadium",
+    chatHandle: "@Vercadium",
+  },
 ];
 
 const bravoTeamGithubHandles = bravoTeamMembers.map(
