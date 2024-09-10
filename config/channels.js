@@ -12,12 +12,12 @@ const bravoTeamMembers = [
     chatHandle: "@sanjay",
   },
   {
-    githubHandle: "wandarkaf",
-    chatHandle: "@alonso",
+    githubHandle: "barry-mckay",
+    chatHandle: "@barry",
   },
   {
-    githubHandle: "jamesharty",
-    chatHandle: "@jamesh",
+    githubHandle: "kclaur",
+    chatHandle: "@laurakc",
   },
   {
     githubHandle: "Vercadium",
